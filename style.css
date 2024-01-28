@@ -82,8 +82,8 @@ body {
 }
 
 .home .informacoes img {
-    max-width: 150px;
-    min-height: calc(100vh - 80px);
+    max-width: 110px;
+    min-height: calc(100vh - 575px);
 }
 
 .home .informacoes .lista-de-jogos {
@@ -93,7 +93,13 @@ body {
 
 .home .informacoes .titulo {
     font-family: 'ChaletComprime';
-    font-size: 55px;
+    font-size: 50px;
+}
+
+.home .informacoes .texto1 {
+    font-family: 'ChaletComprime';
+    font-size: 40px;
+    line-height: 1.6;
 }
 
 .home .informacoes .texto {
