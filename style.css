@@ -173,6 +173,10 @@ body {
     font-size: 52px;
     font-weight: 700;
 }
+p {
+    font-family: 'Chalet';
+    font-size: 14px;
+}
 
 .compre-ja.informacoes p {
     color: #e8e8e8;
@@ -180,7 +184,7 @@ body {
     font-size: 16px;
     line-height: 1.6px;
 }
-.compre-ja .informacoes .plataformas{
+.compre-ja .informacoes .plataforma{
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
@@ -197,7 +201,7 @@ body {
    opacity: 0;
 }
 
-.compre-ja .btn-comprar .plataformas.ativo {
+.compre-ja .btn-plataforma .plataformas.ativo {
     display: flex;
     opacity: 1;
 }
@@ -206,42 +210,42 @@ body {
     padding: 20px;
 }
 
-.compre-ja  .btn-plataforma .plataformas li:nth-child(1){
-    border: 1px solid #00439c;
+.compre-ja .btn-plataforma .plataformas li:nth-child(2){
+    border: solid #00439c;
 }
 
-.compre-ja  .btn-plataforma .plataformas li:nth-child(1):hover{
-    background-color: #00439c;
-}
-.compre-ja  .btn-plataforma .plataformas li:nth-child(2){
-    border: 1px solid #387a26;
-}
-
-.compre-ja  .btn-plataforma .plataformas li:nth-child(2):hover{
-    background-color: #387a26;
-}
-
-.compre-ja .btn-plataforma .plataformas li:nth-child(3) {
-    border: 1px solid #00439c;
-}
-
-.compre-ja .btn-plataforma .plataformas li:nth-child(3):hover {
+.compre-ja .btn-plataforma .plataformas li:nth-child(2):hover{
     background-color: #00439c;
 }
 
-.compre-ja .btn-plataforma .plataformas li:nth-child(4) {
-    border: 1px solid #387a26; 
+.compre-ja .btn-plataforma .plataformas li:nth-child(3){
+    border: solid #387a26;
 }
 
-.compre-ja .btn-plataforma .plataformas li:nth-child(4):hover {
+.compre-ja .btn-plataforma .plataformas li:nth-child(3):hover{
     background-color: #387a26;
 }
-.compre-ja .btn-plataforma .plataformas li:nth-child(5) {
-    border: 1px solid #fcaf17; 
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(4){
+    border: solid #00439c;
 }
 
-.compre-ja .btn-plataforma .plataformas li:nth-child(5):hover {
+.compre-ja .btn-plataforma .plataformas li:nth-child(4):hover{
+    background-color: #00439c;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(5){
+    border: solid #387a26;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(5):hover{
+    background-color: #387a26;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(6){
+    border: solid #fcaf17;
+}
+
+.compre-ja .btn-plataforma li:nth-child(6):hover{
     background-color: #fcaf17;
 }
-
-
