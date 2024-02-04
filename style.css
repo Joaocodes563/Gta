@@ -191,6 +191,10 @@ p {
     justify-content: center;
 }
 
+.compre-ja.btn-plataforma h2 {
+    font-size: 50px;
+}
+
 .compre-ja .btn-plataforma .plataformas{
    margin-top: 10px;
    display: flex;
